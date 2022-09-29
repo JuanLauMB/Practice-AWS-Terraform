@@ -2,7 +2,14 @@ variable "region" {
     default = "ap-southeast-1"
   
 }
-
+variable "access_key" {
+    default = "removed on purpose"
+  
+}
+variable "secret_key" {
+    default = "removed on purpose"
+  
+}
 variable "vpc_cidr" {
     default = "10.0.0.0/16"
   
@@ -25,5 +32,13 @@ variable "priv_subnet2_cidr" {
 }
 variable "sship" {
     default = "136.158.78.199/32"
+  
+}
+variable "dbuser" {
+    default = "m1rds"
+  
+}
+variable "dbpass" {
+    default = "missi0n1"
   
 }
