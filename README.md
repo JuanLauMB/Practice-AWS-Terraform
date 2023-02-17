@@ -1,4 +1,4 @@
-# Maya-Mission-1-AWS-Terraform
+# Mission-1-AWS-Terraform
 - Install Apache on the Apache web servers.
 - Install Nginx on the Nginx web servers.
 - The web servers should be able to access the PostgreSQL RDS instance on port 5432.
